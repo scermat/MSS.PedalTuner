@@ -242,7 +242,15 @@ namespace MattScerri.Fanatec.V3.PedalCurve
         private void inputDeviceToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var inputDeviceSetup = new InputDeviceSetup();
+            inputDeviceSetup.FormClosed += InputDeviceSetup_FormClosed;
             inputDeviceSetup.ShowDialog();
+
+        }
+
+        private void InputDeviceSetup_FormClosed(object? sender, FormClosedEventArgs e)
+        {
+            //Attempt to InitPedals when form is closed
+            InitPedals();
         }
 
         private void gameSetupToolStripMenuItem_Click(object sender, EventArgs e)
