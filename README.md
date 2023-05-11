@@ -3,7 +3,7 @@ PedalTuner is a simple application that allows users of pedals from manufacturer
 
 While it has been primarily designed for iRacing and Fanatec V3 brake pedals it may (but also may not) work on other devices and input signal.
 
-![PedalTuner](Documentation\PedalTuner.png)
+![PedalTuner](Documentation/PedalTuner.png)
 
 ## Concept
 PedalTuner grabs the signal coming from a pedal, transforms it, and emits the transformed signal via an emulated device.
