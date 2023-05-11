@@ -26,6 +26,8 @@ Before using this application you must install and setup the ViGEmBus. ViGEmBus 
 PedalTuner has been tested with v1.21.442.
 
 ## Installing PedalTuner
+You may download PedalTuner from the releases page: https://github.com/scermat/MSS.PedalTuner/releases
+
 PedalTuner is a portable application, simply extract the contents of the zip file and run the `MSS.PedalTuner.exe` executable.
 
 # Configuration
