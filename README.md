@@ -15,7 +15,7 @@ It is far from being exhaustively tested and is still a prototype. The way in wh
 
 Additionally, given that the emulated device uses an emulated XBOX360 trigger controller, the output pedal only has a resolution of 255 values, as opposed to the 65535 possible values of the original.
 
-The best solution is always for the manufacturer to implement this functionality in their software, but this is intended to provide a potential solution.
+The best solution is always for the manufacturer to implement this functionality in their software, but this is intended to provide a potential interim solution.
 
 # Installing
 Before using this application you must install and setup the ViGEmBus. ViGEmBus helps us emulate game controllers that we can use to output the transformed signal through.
